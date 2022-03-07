@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sf ui display';
+    src: url("SF\ UI\ Display\ Black\ Font.otf")
+}
+@font-face {
+    font-family: 'sf ui display';
+    src: url("SF\ UI\ Display\ Black\ Font.otf")
+}
+@font-face {
+    font-family: "Poppins Thin";
+    src: url("Fonts/Poppins/Poppins\ Thin.otf");
+}
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: #fff;
+    padding: 0 8%;
+}
+.hero{
+    background-image: url(https://acegif.com/wp-content/gifs/water-62.gif);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    width: 160px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(0, 174, 255);
+    transition: width 0.3s;
+}
+nav ul li a:hover::after{
+    width: 110%;
+}    
+.hero h1{
+    font-size: 75px;
+    margin-top: 12%;
+}
+.hero button{
+    background: rgb(0, 132, 255);
+    border: 0;
+    border-radius: 10cm;
+    outline: none;
+    padding: 15px 35px;
+    color: white;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.indicator span{
+    display: inline-block;
+    background: #3a3a3a;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.indicator{
+    margin-top: 50px;
+}
+.indicator span.active{
+    background: #bfbfbf;
+}
+.cta{
+    position: absolute;
+    width: 25%;
+    min-width: 250px;
+    right: 8%;
+    bottom: 100px;
+}
+b0{
+    text-decoration: none;
+    font-weight: lighter;
+    animation: fadeInAnimation ease 3s;
+    animation-fill-mode: forwards;
+}
+b1{
+    text-decoration: none;
+    animation: fadeInAnimation ease 3s;
+    animation-fill-mode: forwards;
+}
+b2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 22px;
+    font-family: 'poppins light';
+    src: url("Fonts/Poppins/Poppins\ Light.otf")
+}
+p{
+    animation: fadeInAnimation ease 3s;
+    animation-fill-mode: forwards;
+}
+h1{
+    animation: fadeInAnimation ease 3s;
+    animation-fill-mode: forwards;
+}
+.hero{
+    animation: fadeInAnimation ease s;
+    animation-fill-mode: forwards;
+} 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 105px;
+    
+}
+.unwanted{
+    text-decoration: none;
+    color: #000;
+}
+#bottom {
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 200%;
+}
+#bottom {
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+}
+d {
+    text-shadow: #6374AB 0px -1px 50px;
+}
+.hero1{
+    width: 100%;
+    height: 122%;
+    background-image: linear-gradient(rgba(12, 3, 51,0.3), rgba(12, 3, 51, 0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-family: 'poppins';
+    src: url("Fonts/Poppins/Poppins\ Bold.otf");
+    font-size: 85px;
+    color: white;
+    font-weight: 1000;
+    transition: 1s;
+}
+.content h1:hover{
+    color: rgb(0, 0, 0);
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.418);
+    font-size: 18px;
+    border: 3px solid white;
+    padding: 15px 55px;
+    border-radius: 50px;
+    margin-top: 10px;
+    transition: 1s;
+}
+.content a:hover{
+    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+p2{
+    font-family: 'poppins';
+    src: url("Fonts/Poppins/Poppins\ Light.otf");
+    font-size: 15px;
+    font-weight: 500;
+    transition: 1s;
+}
+.hover{
+    color: white;
+    transition: 1s;
+}
+.hover p:hover{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+#bottom2 {
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.liner{
+    margin-top: 400%;
+    margin-bottom: 400%;
+}
