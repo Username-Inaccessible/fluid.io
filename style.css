@@ -3,15 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'sf ui display';
-    src: url("Fonts\ SF\ UI\ Display\ Black\ Font.otf")
+    src: local("SF\ UI\ Display\ Black\ Font.otf");
 }
 @font-face {
     font-family: 'sf ui display';
-    src: url("Fonts\ SF\ UI\ Display\ Black\ Font.otf")
+    src: local("SF\ UI\ Display\ Black\ Font.otf");
 }
 @font-face {
     font-family: "Poppins Thin";
-    src: url("Fonts/Poppins/Poppins\ Thin.otf");
+    src: local("Poppins\ Thin.otf");
 }
 .hero{
     min-height: 100vh;
@@ -112,7 +112,7 @@ b2{
     font-weight: lighter;
     font-size: 22px;
     font-family: 'poppins light';
-    src: url("Fonts/Poppins/Poppins\ Light.otf")
+    src: local("Poppins\ Light.otf");
 }
 p{
     animation: fadeInAnimation ease 3s;
@@ -173,7 +173,7 @@ d {
 }
 .content h1{
     font-family: 'poppins';
-    src: url("Fonts/Poppins/Poppins\ Bold.otf");
+    src: local("Poppins\ Bold.otf");
     font-size: 85px;
     color: white;
     font-weight: 1000;
@@ -219,7 +219,7 @@ d {
 }
 p2{
     font-family: 'poppins';
-    src: url("Fonts/Poppins/Poppins\ Light.otf");
+    src: local("Poppins\ Light.otf");
     font-size: 15px;
     font-weight: 500;
     transition: 1s;
