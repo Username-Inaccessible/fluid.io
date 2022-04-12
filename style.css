@@ -2,16 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'sf ui display';
-    src: local("SF\ UI\ Display\ Black\ Font.otf");
 }
 @font-face {
     font-family: 'sf ui display';
-    src: local("SF\ UI\ Display\ Black\ Font.otf");
+    src: url('/Fonts/SF\ UI\ Display\ Black\ Font.otf') format('opentype');
 }
 @font-face {
-    font-family: "Poppins Thin";
-    src: local("Poppins\ Thin.otf");
+    font-family: 'poppins';
+    src: url('/Fonts/Poppins/Poppins\ Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: 'poppins-black';
+    src: url('/Fonts/Poppins/Poppins\ Black.otf') format('opentype');
+}
+@font-face {
+    font-family: 'poppins-thin';
+    src: url('/Fonts/Poppins/Poppins\ Thin.otf');
+}
+@font-face {
+    font-family: 'poppins-extrabold';
+    src: url('/Fonts/Poppins/Poppins\ Extra\ Bold.otf');
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('/Fonts/Poppins/Poppins\ Bold.otf');
+}
+@font-face {
+    font-family: 'poppins-light';
+    src: url('/Fonts/Poppins/Poppins\ Light.otf');
 }
 .hero{
     min-height: 100vh;
@@ -23,8 +41,32 @@
     color: #fff;
     padding: 0 8%;
 }
+.cta p{
+    font-family: 'poppins';
+}
+.cta b1{
+    font-family: 'poppins';
+    font-size: 15;
+}
+.hero h1{
+    font-family: 'sf ui display';
+}
+.hero li{
+    font-family: 'poppins';
+}
+.class button{
+    font-family: 'poppins-bold';
+    font-size: 15;
+}
+.link b2{
+    font-family: 'poppins';
+    font-size: 15;
+}
 .hero{
     background-image: url(https://acegif.com/wp-content/gifs/water-62.gif);
+}
+.para d{
+    font-family: 'poppins';
 }
 nav{
     display: flex;
@@ -112,7 +154,6 @@ b2{
     font-weight: lighter;
     font-size: 22px;
     font-family: 'poppins light';
-    src: local("Poppins\ Light.otf");
 }
 p{
     animation: fadeInAnimation ease 3s;
@@ -172,8 +213,7 @@ d {
     text-align: center;
 }
 .content h1{
-    font-family: 'poppins';
-    src: local("Poppins\ Bold.otf");
+    font-family: 'poppins-black';
     font-size: 85px;
     color: white;
     font-weight: 1000;
@@ -183,6 +223,7 @@ d {
     color: rgb(0, 0, 0);
 }
 .content a{
+    font-family: 'poppins';
     text-decoration: none;
     display: inline-block;
     color: white;
@@ -219,7 +260,6 @@ d {
 }
 p2{
     font-family: 'poppins';
-    src: local("Poppins\ Light.otf");
     font-size: 15px;
     font-weight: 500;
     transition: 1s;
@@ -245,4 +285,10 @@ a{
 .liner{
     margin-top: 400%;
     margin-bottom: 400%;
+}
+#bottom4 h3{
+    font-family: 'poppins-black';
+}
+#bottom4 h5{
+    font-family: 'poppins-thin';
 }
